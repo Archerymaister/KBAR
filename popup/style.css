@@ -1,0 +1,82 @@
+:root {
+    --header-color:#ffeed4;
+    --background-color:#b5ffa8;
+}
+
+body {
+    width: 300px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 0px 10px 0px;
+    background-color: var(--background-color);
+}
+
+.content-header {
+    background-color: var(--header-color);
+}
+
+.content-body {
+    padding-top: 50px;
+    top: 0px;
+    background-color: var(--background-color);
+}
+
+.full-item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    text-align: center;
+}
+
+.kevin-image {
+    border: 8px solid var(--header-color);
+    border-radius: 50%;
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: 50% 20%;
+    z-index: 9999;
+    position: relative;
+}
+
+.kevin-item {
+    height: 70px;
+}
+
+.icon-item {
+    margin: 10px 0px 10px 0;
+}
+
+.icon-item > a > img {
+    height: 25px;
+    height: 25px;
+}
+
+.headline-item-1 {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    font-size: 2.1em;
+    margin: 10px 0px 10px 0px;
+    font-family: 'Lilita One', cursive;
+}
+
+.headline-item-3 {
+    display: block;
+    font-weight: bold;
+    width: 100%;
+    font-size: 1.4em;
+    font-family: 'Lilita One', cursive;
+}
+
+.text-item {
+    display: block;
+    width: 100%;
+    font-size: 1.3em;
+    font-family: 'Lilita One', cursive;
+}
